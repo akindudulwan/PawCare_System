@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{9A9B48F2-3B48-4395-927A-94AC9D5A467C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{36B0934F-C002-4A73-BE99-AE28D0125FF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms">
+      <UniqueIdentifier>{5E1E7B9C-48FB-4C9D-9472-F9F68BDE5223}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Models\Appointment.h"><Filter>Models</Filter></ClInclude>
+    <ClInclude Include="Models\Cat.h"><Filter>Models</Filter></ClInclude>
+    <ClInclude Include="Models\Dog.h"><Filter>Models</Filter></ClInclude>
+    <ClInclude Include="Models\MedicalRecord.h"><Filter>Models</Filter></ClInclude>
+    <ClInclude Include="Models\Owner.h"><Filter>Models</Filter></ClInclude>
+    <ClInclude Include="Models\Payment.h"><Filter>Models</Filter></ClInclude>
+    <ClInclude Include="Models\Pet.h"><Filter>Models</Filter></ClInclude>
+    <ClInclude Include="Models\Veterinarian.h"><Filter>Models</Filter></ClInclude>
+    <ClInclude Include="Database\DatabaseManager.h"><Filter>Database</Filter></ClInclude>
+    <ClInclude Include="Forms\LoginForm.h"><Filter>Forms</Filter></ClInclude>
+    <ClInclude Include="Forms\MainForm.h"><Filter>Forms</Filter></ClInclude>
+    <ClInclude Include="Forms\OwnerForm.h"><Filter>Forms</Filter></ClInclude>
+    <ClInclude Include="Forms\PetForm.h"><Filter>Forms</Filter></ClInclude>
+    <ClInclude Include="Forms\AppointmentForm.h"><Filter>Forms</Filter></ClInclude>
+    <ClInclude Include="Forms\BillingForm.h"><Filter>Forms</Filter></ClInclude>
+    <ClInclude Include="Forms\MedicalRecordForm.h"><Filter>Forms</Filter></ClInclude>
+    <ClInclude Include="Forms\VetPortalForm.h"><Filter>Forms</Filter></ClInclude>
+    <ClInclude Include="Forms\ReceptionistPortalForm.h"><Filter>Forms</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Models\Appointment.cpp"><Filter>Models</Filter></ClCompile>
+    <ClCompile Include="Models\Cat.cpp"><Filter>Models</Filter></ClCompile>
+    <ClCompile Include="Models\Dog.cpp"><Filter>Models</Filter></ClCompile>
+    <ClCompile Include="Models\MedicalRecord.cpp"><Filter>Models</Filter></ClCompile>
+    <ClCompile Include="Models\Owner.cpp"><Filter>Models</Filter></ClCompile>
+    <ClCompile Include="Models\Payment.cpp"><Filter>Models</Filter></ClCompile>
+    <ClCompile Include="Models\Pet.cpp"><Filter>Models</Filter></ClCompile>
+    <ClCompile Include="Models\Veterinarian.cpp"><Filter>Models</Filter></ClCompile>
+    <ClCompile Include="Database\DatabaseManager.cpp"><Filter>Database</Filter></ClCompile>
+    <ClCompile Include="AppMain.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Database\pawcare_db.sql"><Filter>Database</Filter></None>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
